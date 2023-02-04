@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">            
+</head>
+<body>
+    <section class="section1">
+        <div class="div1">
+            <div class="image-container">
+                <img class="bg-card-front" src="/interactive-card-details-form-main/images/bg-card-front.png" alt="">
+                <img class="bg-card-back"src="/interactive-card-details-form-main/images/bg-card-back.png" alt="">
+            </div>
+
+        </div>
+        <div class="div2">
+            <div class="input-fields">
+                <div class="input-name">
+                    <label >Cardholder name</label>
+                    <input type="text" class="input_name" placeholder="e.g. Jane Appleseed">
+                </div>
+                <div class="input-cardnumber">
+                    <label >Card number</label>
+                    <input type="text" class="input_name" placeholder="e.g. 1234 5678 9123 0000">
+                </div>
+                <div class="input_date_cvc">
+                    <div class="exp_date">
+                        <label for="">EXP. DATE (MM/YY)</label>
+                        <div class="mm_yy">
+                            <input type="text" placeholder="MM">
+                            <input type="text" placeholder="YY">
+                        </div>
+                    </div>
+                    <div class="cvc">
+                        <label for="">CVC</label>
+                        <input type="text" class="cvc_text" placeholder="e.g. 123">
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit" class="confirm">Confirm</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
